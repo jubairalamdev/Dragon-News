@@ -1,0 +1,60 @@
+import React from 'react';
+
+const Loading = () => {
+    return (
+        <div className='w-full flex flex-col gap-10 items-center'>
+            <div className="flex w-lg flex-col gap-4">
+                <div className="flex items-center gap-4">
+                    <div className="skeleton h-16 w-16 shrink-0 rounded-full"></div>
+                    <div className="flex flex-col gap-4">
+                        <div className="skeleton h-4 w-20"></div>
+                        <div className="skeleton h-4 w-28"></div>
+                    </div>
+                </div>
+                <div className="skeleton h-52 w-full"></div>
+            </div>
+            <div className="flex w-lg flex-col gap-4">
+                <div className="flex items-center gap-4">
+                    <div className="skeleton h-16 w-16 shrink-0 rounded-full"></div>
+                    <div className="flex flex-col gap-4">
+                        <div className="skeleton h-4 w-20"></div>
+                        <div className="skeleton h-4 w-28"></div>
+                    </div>
+                </div>
+                <div className="skeleton h-52 w-full"></div>
+            </div>
+            <div className="flex w-lg flex-col gap-4">
+                <div className="flex items-center gap-4">
+                    <div className="skeleton h-16 w-16 shrink-0 rounded-full"></div>
+                    <div className="flex flex-col gap-4">
+                        <div className="skeleton h-4 w-20"></div>
+                        <div className="skeleton h-4 w-28"></div>
+                    </div>
+                </div>
+                <div className="skeleton h-52 w-full"></div>
+            </div>
+            <div className="flex w-lg flex-col gap-4">
+                <div className="flex items-center gap-4">
+                    <div className="skeleton h-16 w-16 shrink-0 rounded-full"></div>
+                    <div className="flex flex-col gap-4">
+                        <div className="skeleton h-4 w-20"></div>
+                        <div className="skeleton h-4 w-28"></div>
+                    </div>
+                </div>
+                <div className="skeleton h-52 w-full"></div>
+            </div>
+            <div className="flex w-lg flex-col gap-4">
+                <div className="flex items-center gap-4">
+                    <div className="skeleton h-16 w-16 shrink-0 rounded-full"></div>
+                    <div className="flex flex-col gap-4">
+                        <div className="skeleton h-4 w-20"></div>
+                        <div className="skeleton h-4 w-28"></div>
+                    </div>
+                </div>
+                <div className="skeleton h-52 w-full"></div>
+            </div>
+        </div>
+    );
+};
+
+export default Loading;
