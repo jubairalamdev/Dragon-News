@@ -1,11 +1,3 @@
 @import "tailwindcss";
 @plugin "daisyui";
 
-
-.news-des-elipsis {
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 4;       /* Limits the text to exactly 3 lines */
-  overflow: hidden;            /* Required to hide excess content */
-  word-break: break-all;       /* Forces character-by-character breaking */
-}

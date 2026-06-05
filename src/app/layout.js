@@ -1,3 +1,6 @@
+import dns from "node:dns";
+dns.setServers(['8.8.8.8', '8.8.4.4'])
+
 import { Geist, Geist_Mono, Poppins } from "next/font/google";
 import "./globals.css";
 import variables from "daisyui/functions/variables";
@@ -21,7 +24,7 @@ export default function RootLayout({ children }) {
       className={`${poppins.className} light h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-background text-foreground">
-        <main className="max-w-300 mx-auto">
+        <main className="w-full">
           {children}
         </main>
         </body>

@@ -5,9 +5,6 @@ import React from 'react';
 
 export async function generateMetadata({ params }) {
   const {newsId}= await params;
-//   console.log(id, params)
- 
-  // fetch post information
   const news = await getNewsById(newsId);
  
   return {
